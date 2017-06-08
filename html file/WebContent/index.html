@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form</title>
+	</head>
+	<body>
+			<form class="" action="index1.html" method="get">
+				<fieldset>
+					<legend>Personal Info</legend>
+					First Name : <input type="text" name="firstname" placeholder="First Name" pattern="[a-z]{1,10}" title="Firstname must contain 10 letters" autofocus> <br><br>
+					Last Name : <input type="text" name="lastname" placeholder="Last Name" pattern="[a-z]{1,10}" title="Lastname must contain 10 letters"> <br><br>
+					Email : <input type="email" name="email" placeholder="Enter your Email address" required><br><br>
+					Password : <input type="password" name="pass" placeholder="Password" value="" required><br><br>
+					Gender : <input type="radio" name="gender" checked="checked" value="male"> Male
+										<input type="radio" name="gender" value="female"> Female <br><br>
+							Birthday : <input type="date" name="bday" required>	<br><br>
+										Department :
+						<select class="" name="Degree" required>
+								<option value="cse">Computer Science Engineering</option>
+								<option value="ece">Electronics & communication</option>
+								<option value="it">Information Technology</option>
+						</select><br><br>
+						<input type="submit" value="Submit">
+						<button type="button" onclick="alert('Alert Message :)')" name="Alert">Don't Click Me</button>
+						<input type="reset" name="" value="Reset">
+			</form>
+					</fieldset>
+	</body>
+</html>
